@@ -26,6 +26,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import ucn from "./ucn.png";
+import candylicious from "./candylicious.png";
+import handyrent from "./handyrent.png";
+import solita from "./solita.jpg";
+import portfolio from "./portfolio.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -56,6 +61,11 @@ export {
   shopify,
   starbucks,
   tesla,
+  ucn,
+  candylicious,
+  handyrent,
+  solita,
+  portfolio,
   carrent,
   jobit,
   tripguide,
