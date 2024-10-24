@@ -15,6 +15,11 @@ import {
     git,
     figma,
     docker,
+    java,
+    csharp,
+    python,
+    sql,
+    dotnet,
     meta,
     starbucks,
     tesla,
@@ -67,11 +72,39 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
+      name: "HTML",
       icon: html,
     },
     {
-      name: "CSS 3",
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "C#",
+      icon: csharp,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "SQL",
+      icon: sql,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "Node.js",
+      icon: nodejs,
+    },
+    {
+      name: "HTML",
+      icon: html,
+    },
+    {
+      name: "CSS",
       icon: css,
     },
     {
@@ -79,46 +112,15 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: ".NET",
+      icon: dotnet,
     },
     {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
+      name: "Git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
-  ];
+];
+
   
 const experiences = [
   {

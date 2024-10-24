@@ -21,6 +21,12 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import java from "./tech/java.png";
+import csharp from "./tech/csharp.png";
+import python from "./tech/python.png";
+import sql from "./tech/sql.png";
+import dotnet from "./tech/dotnet.png";
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -31,6 +37,7 @@ import candylicious from "./candylicious.png";
 import handyrent from "./handyrent.png";
 import solita from "./solita.jpg";
 import portfolio from "./portfolio.png"
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -57,6 +64,11 @@ export {
   tailwind,
   typescript,
   threejs,
+  java,
+  csharp,
+  python,
+  sql,
+  dotnet,
   meta,
   shopify,
   starbucks,
