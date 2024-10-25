@@ -29,6 +29,8 @@ import {
     handyrent,
     solita,
     portfolio,
+    vesterbjerg,
+    handwriting,
     carrent,
     jobit,
     tripguide,
@@ -167,68 +169,79 @@ const experiences = [
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Vesterbjerg Byggecenter",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Opdatering af lager-, salgs- og udlejningssystem for at optimere ledelse og medarbejderes overblik. Udviklet med Java Swing GUI, Eclipse og Git ved hjælp af 3-lags arkitektur og vandfaldsmodellen.",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
+        { name: "java", color: "blue-text-gradient" },
+        { name: "swing", color: "green-text-gradient" },
+        { name: "git", color: "pink-text-gradient" },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: vesterbjerg,
+      source_code_link: "https://github.com/viktor-bd/SemesterProjekt_1",
     },
     {
-      name: "Job IT",
+      name: "Candylicious",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Digitaliseret vagtplanlægning, som gjorde det muligt for medarbejdere at acceptere vagter direkte. Brugt Java, Swing, SQL og MSSQL til et intuitivt GUI-system udviklet i en 3-lags arkitektur.",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+        { name: "java", color: "blue-text-gradient" },
+        { name: "sql", color: "green-text-gradient" },
+        { name: "gui", color: "pink-text-gradient" },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: candylicious,
+      source_code_link: "https://github.com/Melihoz98/VagtplanProjectGr4",
     },
     {
-      name: "Trip Guide",
+      name: "Handy Rent",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Distribueret værktøjsudlejningssystem med samtidighedshåndtering, bygget i ASP.NET og inkluderende web API, desktop- og webapp-klient. Inkluderede transaktionsstyring, identifikation og autentifikation.",
       tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        { name: "asp.net", color: "blue-text-gradient" },
+        { name: "c#", color: "green-text-gradient" },
+        { name: "sql", color: "pink-text-gradient" },
       ],
-      image: tripguide,
+      image: handyrent,
+      source_code_link: "https://github.com/MarwanAlmzayek/SemesterProjectGr4 ",
+    },
+    {
+      name: "Handwriting Recognition",
+      description:
+        "Tekstgenkendelse af håndskrift fra billeder konverteret til PDF, udviklet med Python og deep learning-teknikker i samarbejde med Solita A/S.",
+      tags: [
+        { name: "python", color: "blue-text-gradient" },
+        { name: "deep learning", color: "green-text-gradient" },
+        { name: "image recognition", color: "pink-text-gradient" },
+      ],
+      image: handwriting,
+      source_code_link: "https://dev.azure.com/10478728/Image%20recognition%20of%20handwriting/_git/api-service",
+    },
+/*    {
+      name: "ShiftScheduler",
+      description:
+        "Vagtplansystem i C# og MAUI med mobil- og webapplikation for hhv. medarbejdere og administratorer. Bygget med API til databasestyring.",
+      tags: [
+        { name: "c#", color: "blue-text-gradient" },
+        { name: "maui", color: "green-text-gradient" },
+        { name: "api", color: "pink-text-gradient" },
+      ],
+      image: shiftscheduler,
       source_code_link: "https://github.com/",
+    },
+*/
+    {
+      name: "Portfolio",
+      description:
+        "Portfolio-side udviklet med React, Framer Motion og Tailwind CSS, der viser mine projekter og kompetencer.",
+      tags: [
+        { name: "react", color: "blue-text-gradient" },
+        { name: "tailwind", color: "green-text-gradient" },
+        { name: "framer motion", color: "pink-text-gradient" },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/has99an/3D_portfolio",
     },
   ];
+  
   
   export { services, technologies, experiences, testimonials, projects };

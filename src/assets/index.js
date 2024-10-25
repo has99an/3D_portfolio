@@ -37,6 +37,8 @@ import candylicious from "./candylicious.png";
 import handyrent from "./handyrent.png";
 import solita from "./solita.jpg";
 import portfolio from "./portfolio.png"
+import vesterbjerg from "./vesterbjerg.png";
+import handwriting from "./handwriting.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -78,6 +80,8 @@ export {
   handyrent,
   solita,
   portfolio,
+  vesterbjerg,
+  handwriting,
   carrent,
   jobit,
   tripguide,
