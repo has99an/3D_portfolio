@@ -214,7 +214,10 @@ const experiences = [
         { name: "image recognition", color: "pink-text-gradient" },
       ],
       image: handwriting,
-      source_code_link: "https://dev.azure.com/10478728/Image%20recognition%20of%20handwriting/_git/api-service",
+      source_code_link: {
+        api: "https://github.com/has99an/handwriting-recognition-angular-ui",
+        ui: "https://github.com/has99an/handwriting-recognition-api",
+      },
     },
 /*    {
       name: "ShiftScheduler",

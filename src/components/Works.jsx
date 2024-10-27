@@ -34,16 +34,41 @@ const ProjectCard = ({
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
+            {typeof source_code_link === 'string' ? (
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              >
+                <img
+                  src={github}
+                  alt='source code'
+                  className='w-1/2 h-1/2 object-contain'
+                />
+              </div>
+            ) : (
+              <>
+                <div
+                  onClick={() => window.open(source_code_link.api, "_blank")}
+                  className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+                >
+                  <img
+                    src={github}
+                    alt='API source code'
+                    className='w-1/2 h-1/2 object-contain'
+                  />
+                </div>
+                <div
+                  onClick={() => window.open(source_code_link.ui, "_blank")}
+                  className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+                >
+                  <img
+                    src={github}
+                    alt='UI source code'
+                    className='w-1/2 h-1/2 object-contain'
+                  />
+                </div>
+              </>
+            )}
           </div>
         </div>
 
@@ -66,6 +91,7 @@ const ProjectCard = ({
     </motion.div>
   );
 };
+
 
 const Works = () => {
   return (
