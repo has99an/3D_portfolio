@@ -22,6 +22,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '20'  # Tilføjet linje for Node.js version
+      - name: Build the app
+        run: npm install && npm run build
+
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
