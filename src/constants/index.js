@@ -20,7 +20,6 @@ import {
     vesterbjerg,
     handwriting,
     threejs,
-    profile,
   } from "../assets";
   
   export const navLinks = [
@@ -60,58 +59,55 @@ import {
   
   const technologies = [
     {
-      name: "HTML",
-      icon: html,
+        name: "HTML",
+        icon: html,
     },
     {
-      name: "Java",
-      icon: java,
+        name: "Java",
+        icon: java,
     },
     {
-      name: "C#",
-      icon: csharp,
+        name: "C#",
+        icon: csharp,
     },
     {
-      name: "Python",
-      icon: python,
+        name: "Python",
+        icon: python,
     },
     {
-      name: "SQL",
-      icon: sql,
+        name: "SQL",
+        icon: sql,
     },
     {
-      name: "React JS",
-      icon: reactjs,
+        name: "React JS",
+        icon: reactjs,
     },
     {
-      name: "Node.js",
-      icon: nodejs,
+        name: "Node.js",
+        icon: nodejs,
     },
     {
-      name: "HTML",
-      icon: html,
+        name: "CSS",
+        icon: css,
     },
     {
-      name: "CSS",
-      icon: css,
+        name: "JavaScript",
+        icon: javascript,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+        name: ".NET",
+        icon: dotnet,
     },
     {
-      name: ".NET",
-      icon: dotnet,
+        name: "Git",
+        icon: git,
     },
     {
-      name: "Git",
-      icon: git,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
+        name: "Three JS",
+        icon: threejs,
     },
 ];
+
 
   
 const experiences = [
